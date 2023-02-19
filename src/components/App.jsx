@@ -1,12 +1,9 @@
 import { Profile } from '../components/Profile/Profile'
 import user from './Profile/user.json'
-
 import { Statistics } from '../components/Stats/Statistics';
 import statistics from './Stats/data.json';
-
 import { FriendList } from '../components/FriendList/FriendList';
 import friends from './FriendList/friends.json'
-
 import { TransactionHistory } from '../components/TransactionHistory/TransactionHistory'
 import transactions from './TransactionHistory/transactions.json'
 
@@ -26,3 +23,4 @@ export const App = () => {
     </div>
   );
 };
+
